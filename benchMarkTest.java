@@ -1,6 +1,9 @@
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.PrintWriter;
 
 public class benchMarkTest
 {
@@ -20,23 +23,29 @@ public class benchMarkTest
         // System.out.println("Operating System: " + System.getenv("OS"));
         // System.out.println("Operating System: " + System.getenv("PROCESSOR_LEVEL"));
 
-        StringBuilder stringBuilder = new StringBuilder();
+        // StringBuilder stringBuilder = new StringBuilder();
         Runtime runtime = Runtime.getRuntime();
         Process process = runtime.exec("systeminfo");
-        try (BufferedReader systemInformationReader = new BufferedReader(new InputStreamReader(process.getInputStream())))
+        try (BufferedReader systemInformationReader = new BufferedReader(new InputStreamReader(process.getInputStream())); 
+             PrintWriter output = new PrintWriter(new BufferedWriter(new FileWriter("Report.txt",true))))
         {
+            output.append("------------------------------ New Device -----------------------------------------------");
+            output.append(("Processor Architecture: " + System.getenv("PROCESSOR_ARCHITECTURE")));
             while ((line = systemInformationReader.readLine()) != null)
             {
-                stringBuilder.append(line);
-                stringBuilder.append(System.lineSeparator());
+                output.append(line);
+                output.append(System.lineSeparator());
+                // stringBuilder.append(line);
+                // stringBuilder.append(System.lineSeparator());
             }
+
+            
         }
          catch (IOException e)
         {
             e.printStackTrace();
         }
 
-System.out.println(stringBuilder);        
     }
 
 
