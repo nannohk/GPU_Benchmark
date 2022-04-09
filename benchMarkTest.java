@@ -10,16 +10,6 @@ import java.util.concurrent.TimeUnit;
 
 public class benchMarkTest
 {
-
-    // private String vid1path = "";
-    // private String vid2path = "";
-    // private String vid3path = "";
-    // private String vid4path = "";
-    // private static long time1 = 0;
-    // private static long time2 = 0;
-    // private static long time3 = 0;
-    // private static long time4 = 0;
-
     private static String line="";
 
     public static void main(String[]args) throws IOException, InterruptedException
@@ -28,7 +18,7 @@ public class benchMarkTest
         Runtime runtime = Runtime.getRuntime();
         Process process = runtime.exec("systeminfo");
         try (BufferedReader systemInformationReader = new BufferedReader(new InputStreamReader(process.getInputStream())); 
-             PrintWriter output = new PrintWriter(new BufferedWriter(new FileWriter("Report.txt",true))))
+             PrintWriter output = new PrintWriter(new BufferedWriter(new FileWriter("Report.txt"+System.nanoTime(),true))))
         {
 
             output.append("------------------------------ New Device -----------------------------------------------\n");
@@ -85,18 +75,18 @@ public class benchMarkTest
         desk.open(vid);
         TimeUnit.SECONDS.sleep(15);
         String numproc = System.getenv("PROCESSOR_LEVEL");
-        TimeUnit.SECONDS.sleep(15);
+        TimeUnit.SECONDS.sleep(14);
         return numproc;
     }
 
     public static String test4()throws IOException, InterruptedException
     {
         Desktop desk = Desktop.getDesktop();
-        File vid = new File("pexels-laura-tancredi-7076548.mp4");
+        File vid = new File("production ID_4913621.mp4");
         desk.open(vid);
-        TimeUnit.SECONDS.sleep(5);
+        TimeUnit.SECONDS.sleep(9);
         String numproc = System.getenv("PROCESSOR_LEVEL");
-        TimeUnit.SECONDS.sleep(5);
+        TimeUnit.SECONDS.sleep(6);
         return numproc;
     }
 
