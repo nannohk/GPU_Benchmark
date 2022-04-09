@@ -27,10 +27,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC-04:00) Atlantic Time (Canada)
 Total Physical Memory:     8,026 MB
-Available Physical Memory: 2,342 MB
+Available Physical Memory: 2,076 MB
 Virtual Memory: Max Size:  13,611 MB
-Virtual Memory: Available: 5,026 MB
-Virtual Memory: In Use:    8,585 MB
+Virtual Memory: Available: 4,768 MB
+Virtual Memory: In Use:    8,843 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    WORKGROUP
 Logon Server:              \\DESKTOP-Q2CQDFL
