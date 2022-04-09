@@ -18,7 +18,7 @@ public class benchMarkTest
         Runtime runtime = Runtime.getRuntime();
         Process process = runtime.exec("systeminfo");
         try (BufferedReader systemInformationReader = new BufferedReader(new InputStreamReader(process.getInputStream())); 
-             PrintWriter output = new PrintWriter(new BufferedWriter(new FileWriter("Report.txt"+System.nanoTime(),true))))
+             PrintWriter output = new PrintWriter(new BufferedWriter(new FileWriter("Report_"+System.nanoTime()+".txt",true))))
         {
 
             output.append("------------------------------ New Device -----------------------------------------------\n");
