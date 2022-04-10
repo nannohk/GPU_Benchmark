@@ -27,10 +27,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC-04:00) Atlantic Time (Canada)
 Total Physical Memory:     8,026 MB
-Available Physical Memory: 2,700 MB
+Available Physical Memory: 3,098 MB
 Virtual Memory: Max Size:  13,611 MB
-Virtual Memory: Available: 4,498 MB
-Virtual Memory: In Use:    9,113 MB
+Virtual Memory: Available: 5,795 MB
+Virtual Memory: In Use:    7,816 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    WORKGROUP
 Logon Server:              \\DESKTOP-Q2CQDFL
@@ -40,7 +40,7 @@ Hotfix(s):                 5 Hotfix(s) Installed.
                            [03]: KB5008295
                            [04]: KB5011493
                            [05]: KB5009641
-Network Card(s):           7 NIC(s) Installed.
+Network Card(s):           6 NIC(s) Installed.
                            [01]: Fortinet Virtual Ethernet Adapter (NDIS 6.30)
                                  Connection Name: Ethernet
                                  Status:          Media disconnected
@@ -63,12 +63,9 @@ Network Card(s):           7 NIC(s) Installed.
                                  IP address(es)
                                  [01]: 10.0.0.30
                                  [02]: fe80::d404:8384:9ec4:954e
-                                 [03]: 2607:fea8:d125:3600:5cf5:51b:71b4:6eaf
+                                 [03]: 2607:fea8:d125:3600:b902:3976:4077:4648
                                  [04]: 2607:fea8:d125:3600:d404:8384:9ec4:954e
                                  [05]: 2607:fea8:d125:3600::12f5
-                           [07]: Bluetooth Device (Personal Area Network)
-                                 Connection Name: Bluetooth Network Connection
-                                 Status:          Media disconnected
 Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
                            Virtualization Enabled In Firmware: Yes
                            Second Level Address Translation: Yes
@@ -77,3 +74,8 @@ Test 1 number of processors used:	6
 Test 2 number of processors used:	6
 Test 3 number of processors used:	6
 Test 4 number of processors used:	6
+
+AVG CPU MAx:33%
+AVG CPU Min:2%
+AVG GPU MAx:32%
+AVG GPU MIN:14%

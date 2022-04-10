@@ -1,0 +1,1062 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0213.1102                               -->
+<workbook original-version='18.1' source-build='2021.4.4 (20214.22.0213.1102)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (report_data)' inline='true' name='federated.0ss72t318tcgpl14hmhhp0bkga70' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='report_data' name='excel-direct.0sttsfm112fvjp1ck64j908hhcc0'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Nathan/Desktop/CS3813_Computer_Architecture/Project/GPU_Benchmark/report_data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0sttsfm112fvjp1ck64j908hhcc0' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:T4:no:A1:T4:0' header='yes' outcome='2'>
+            <column datatype='string' name='Processor Architecture' ordinal='0' />
+            <column datatype='integer' name='Total number of Processors' ordinal='1' />
+            <column datatype='integer' name='Number of processors used' ordinal='2' />
+            <column datatype='string' name='OS Name' ordinal='3' />
+            <column datatype='string' name='OS Version' ordinal='4' />
+            <column datatype='string' name='OS Configuration' ordinal='5' />
+            <column datatype='string' name='OS Build Type' ordinal='6' />
+            <column datatype='string' name='System Manufacturer' ordinal='7' />
+            <column datatype='string' name='System Model' ordinal='8' />
+            <column datatype='string' name='System Type' ordinal='9' />
+            <column datatype='string' name='Processor(s)' ordinal='10' />
+            <column datatype='integer' name='Total Physical Memory(MB)' ordinal='11' />
+            <column datatype='integer' name='Available Physical Memory(MB)' ordinal='12' />
+            <column datatype='integer' name='Virtual Memory: Max Size(MB)' ordinal='13' />
+            <column datatype='integer' name='Virtual Memory: Available(MB)' ordinal='14' />
+            <column datatype='integer' name='Virtual Memory: In Use(MB)' ordinal='15' />
+            <column datatype='real' name='AVG CPU Max' ordinal='16' />
+            <column datatype='real' name='AVG CPU Min' ordinal='17' />
+            <column datatype='real' name='AVG GPU Max' ordinal='18' />
+            <column datatype='real' name='AVG GPU Min' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0sttsfm112fvjp1ck64j908hhcc0' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:T4:no:A1:T4:0' header='yes' outcome='2'>
+            <column datatype='string' name='Processor Architecture' ordinal='0' />
+            <column datatype='integer' name='Total number of Processors' ordinal='1' />
+            <column datatype='integer' name='Number of processors used' ordinal='2' />
+            <column datatype='string' name='OS Name' ordinal='3' />
+            <column datatype='string' name='OS Version' ordinal='4' />
+            <column datatype='string' name='OS Configuration' ordinal='5' />
+            <column datatype='string' name='OS Build Type' ordinal='6' />
+            <column datatype='string' name='System Manufacturer' ordinal='7' />
+            <column datatype='string' name='System Model' ordinal='8' />
+            <column datatype='string' name='System Type' ordinal='9' />
+            <column datatype='string' name='Processor(s)' ordinal='10' />
+            <column datatype='integer' name='Total Physical Memory(MB)' ordinal='11' />
+            <column datatype='integer' name='Available Physical Memory(MB)' ordinal='12' />
+            <column datatype='integer' name='Virtual Memory: Max Size(MB)' ordinal='13' />
+            <column datatype='integer' name='Virtual Memory: Available(MB)' ordinal='14' />
+            <column datatype='integer' name='Virtual Memory: In Use(MB)' ordinal='15' />
+            <column datatype='real' name='AVG CPU Max' ordinal='16' />
+            <column datatype='real' name='AVG CPU Min' ordinal='17' />
+            <column datatype='real' name='AVG GPU Max' ordinal='18' />
+            <column datatype='real' name='AVG GPU Min' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:T4:no:A1:T4:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Processor Architecture</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Processor Architecture]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Processor Architecture</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total number of Processors</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total number of Processors]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total number of Processors</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of processors used</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of processors used]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Number of processors used</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OS Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OS Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>OS Name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OS Version</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OS Version]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>OS Version</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OS Configuration</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OS Configuration]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>OS Configuration</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OS Build Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OS Build Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>OS Build Type</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>System Manufacturer</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[System Manufacturer]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>System Manufacturer</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>System Model</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[System Model]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>System Model</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>System Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[System Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>System Type</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Processor(s)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Processor(s)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Processor(s)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Physical Memory(MB)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Physical Memory(MB)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total Physical Memory(MB)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Available Physical Memory(MB)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Available Physical Memory(MB)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Available Physical Memory(MB)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Virtual Memory: Max Size(MB)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Virtual Memory: Max Size(MB)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Virtual Memory: Max Size(MB)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Virtual Memory: Available(MB)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Virtual Memory: Available(MB)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Virtual Memory: Available(MB)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Virtual Memory: In Use(MB)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Virtual Memory: In Use(MB)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Virtual Memory: In Use(MB)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AVG CPU Max</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AVG CPU Max]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>AVG CPU Max</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AVG CPU Min</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AVG CPU Min]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>AVG CPU Min</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AVG GPU Max</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AVG GPU Max]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>AVG GPU Max</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AVG GPU Min</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AVG GPU Min]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>AVG GPU Min</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[AVG CPU Max]' role='measure' type='quantitative' />
+      <column datatype='real' name='[AVG CPU Min]' role='measure' type='quantitative' />
+      <column datatype='real' name='[AVG GPU Max]' role='measure' type='quantitative' />
+      <column datatype='real' name='[AVG GPU Min]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Total Physical Memory(MB)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Virtual Memory: In Use(MB)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Virtual Memory: Max Size(MB)]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B]' role='measure' type='quantitative' />
+      <column-instance column='[AVG CPU Max]' derivation='Sum' name='[sum:AVG CPU Max:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AVG CPU Min]' derivation='Sum' name='[sum:AVG CPU Min:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AVG GPU Max]' derivation='Sum' name='[sum:AVG GPU Max:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AVG GPU Min]' derivation='Sum' name='[sum:AVG GPU Min:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total Physical Memory(MB)]' derivation='Sum' name='[sum:Total Physical Memory(MB):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Virtual Memory: In Use(MB)]' derivation='Sum' name='[sum:Virtual Memory: In Use(MB):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Virtual Memory: Max Size(MB)]' derivation='Sum' name='[sum:Virtual Memory: Max Size(MB):qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:AVG CPU Max:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:Total Physical Memory(MB):qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:Virtual Memory: Max Size(MB):qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:AVG GPU Min:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:Virtual Memory: In Use(MB):qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:AVG GPU Max:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:AVG CPU Min:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_8C25B4156B9A47BFB01BE3DB5125DD8B'>
+            <properties context=''>
+              <relation connection='excel-direct.0sttsfm112fvjp1ck64j908hhcc0' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:T4:no:A1:T4:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Processor Architecture' ordinal='0' />
+                  <column datatype='integer' name='Total number of Processors' ordinal='1' />
+                  <column datatype='integer' name='Number of processors used' ordinal='2' />
+                  <column datatype='string' name='OS Name' ordinal='3' />
+                  <column datatype='string' name='OS Version' ordinal='4' />
+                  <column datatype='string' name='OS Configuration' ordinal='5' />
+                  <column datatype='string' name='OS Build Type' ordinal='6' />
+                  <column datatype='string' name='System Manufacturer' ordinal='7' />
+                  <column datatype='string' name='System Model' ordinal='8' />
+                  <column datatype='string' name='System Type' ordinal='9' />
+                  <column datatype='string' name='Processor(s)' ordinal='10' />
+                  <column datatype='integer' name='Total Physical Memory(MB)' ordinal='11' />
+                  <column datatype='integer' name='Available Physical Memory(MB)' ordinal='12' />
+                  <column datatype='integer' name='Virtual Memory: Max Size(MB)' ordinal='13' />
+                  <column datatype='integer' name='Virtual Memory: Available(MB)' ordinal='14' />
+                  <column datatype='integer' name='Virtual Memory: In Use(MB)' ordinal='15' />
+                  <column datatype='real' name='AVG CPU Max' ordinal='16' />
+                  <column datatype='real' name='AVG CPU Min' ordinal='17' />
+                  <column datatype='real' name='AVG GPU Max' ordinal='18' />
+                  <column datatype='real' name='AVG GPU Min' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='CPU Report'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (report_data)' name='federated.0ss72t318tcgpl14hmhhp0bkga70' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ss72t318tcgpl14hmhhp0bkga70'>
+            <column datatype='real' name='[AVG CPU Max]' role='measure' type='quantitative' />
+            <column datatype='real' name='[AVG CPU Min]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Number of processors used]' role='measure' type='quantitative' />
+            <column datatype='string' name='[OS Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[System Manufacturer]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total number of Processors]' role='measure' type='quantitative' />
+            <column-instance column='[OS Name]' derivation='None' name='[none:OS Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[System Manufacturer]' derivation='None' name='[none:System Manufacturer:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AVG CPU Max]' derivation='Sum' name='[sum:AVG CPU Max:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AVG CPU Min]' derivation='Sum' name='[sum:AVG CPU Min:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number of processors used]' derivation='Sum' name='[sum:Number of processors used:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total number of Processors]' derivation='Sum' name='[sum:Total number of Processors:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:AVG CPU Max:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:AVG CPU Min:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]' />
+              <text column='[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:Total number of Processors:qk]' />
+              <text column='[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:Number of processors used:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2.066298246383667' />
+                <format attr='shape' value=':filled/square' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ss72t318tcgpl14hmhhp0bkga70].[Multiple Values]</rows>
+        <cols>([federated.0ss72t318tcgpl14hmhhp0bkga70].[none:OS Name:nk] / ([federated.0ss72t318tcgpl14hmhhp0bkga70].[none:System Manufacturer:nk] / [federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]))</cols>
+      </table>
+      <simple-id uuid='{D28FC97E-78E8-479D-AA62-EAAA1E66A374}' />
+    </worksheet>
+    <worksheet name='GPU Observation'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (report_data)' name='federated.0ss72t318tcgpl14hmhhp0bkga70' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ss72t318tcgpl14hmhhp0bkga70'>
+            <column datatype='real' name='[AVG GPU Max]' role='measure' type='quantitative' />
+            <column datatype='real' name='[AVG GPU Min]' role='measure' type='quantitative' />
+            <column datatype='string' name='[OS Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[System Manufacturer]' role='dimension' type='nominal' />
+            <column-instance column='[OS Name]' derivation='None' name='[none:OS Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[System Manufacturer]' derivation='None' name='[none:System Manufacturer:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AVG GPU Max]' derivation='Sum' name='[sum:AVG GPU Max:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AVG GPU Min]' derivation='Sum' name='[sum:AVG GPU Min:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:AVG GPU Max:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:AVG GPU Min:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0ss72t318tcgpl14hmhhp0bkga70].[none:OS Name:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Microsoft Windows 10 Home&quot;</bucket>
+              <bucket>&quot;Microsoft Windows 11 Home&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <manual-sort column='[federated.0ss72t318tcgpl14hmhhp0bkga70].[none:System Manufacturer:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;HUAWEI&quot;</bucket>
+              <bucket>&quot;Dell Inc&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0ss72t318tcgpl14hmhhp0bkga70].[Multiple Values]</rows>
+        <cols>([federated.0ss72t318tcgpl14hmhhp0bkga70].[none:OS Name:nk] / ([federated.0ss72t318tcgpl14hmhhp0bkga70].[none:System Manufacturer:nk] / [federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]))</cols>
+      </table>
+      <simple-id uuid='{4C6AE4CA-E029-4591-A988-51349271885B}' />
+    </worksheet>
+    <worksheet name='Main Memory'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (report_data)' name='federated.0ss72t318tcgpl14hmhhp0bkga70' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ss72t318tcgpl14hmhhp0bkga70'>
+            <column datatype='string' name='[System Model]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total Physical Memory(MB)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Virtual Memory: In Use(MB)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Virtual Memory: Max Size(MB)]' role='measure' type='quantitative' />
+            <column-instance column='[System Model]' derivation='None' name='[none:System Model:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Physical Memory(MB)]' derivation='Sum' name='[sum:Total Physical Memory(MB):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Virtual Memory: In Use(MB)]' derivation='Sum' name='[sum:Virtual Memory: In Use(MB):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Virtual Memory: Max Size(MB)]' derivation='Sum' name='[sum:Virtual Memory: Max Size(MB):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:Total Physical Memory(MB):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:Virtual Memory: In Use(MB):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:Virtual Memory: Max Size(MB):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:Virtual Memory: In Use(MB):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:Virtual Memory: Max Size(MB):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0ss72t318tcgpl14hmhhp0bkga70].[sum:Total Physical Memory(MB):qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0ss72t318tcgpl14hmhhp0bkga70].[Multiple Values]</rows>
+        <cols>([federated.0ss72t318tcgpl14hmhhp0bkga70].[none:System Model:nk] / [federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{59C6303E-5982-4DA5-828E-DC5AC82826C8}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' show-side-pane='false' source-height='37'>
+    <window class='worksheet' name='Main Memory'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='240'>
+            <card pane-specification-id='0' param='[federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]</field>
+            <field>[federated.0ss72t318tcgpl14hmhhp0bkga70].[none:System Model:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8D995112-E1AC-4493-8B06-2C24B881C8C9}' />
+    </window>
+    <window class='worksheet' maximized='true' name='CPU Report'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]</field>
+            <field>[federated.0ss72t318tcgpl14hmhhp0bkga70].[none:OS Name:nk]</field>
+            <field>[federated.0ss72t318tcgpl14hmhhp0bkga70].[none:System Manufacturer:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E7142FF6-DE84-46CB-A263-78BB9666744A}' />
+    </window>
+    <window class='worksheet' name='GPU Observation'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ss72t318tcgpl14hmhhp0bkga70].[:Measure Names]</field>
+            <field>[federated.0ss72t318tcgpl14hmhhp0bkga70].[none:OS Name:nk]</field>
+            <field>[federated.0ss72t318tcgpl14hmhhp0bkga70].[none:System Manufacturer:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{742E6C7A-8381-4BCE-9530-FC0FE6CFDCC9}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='CPU Report' width='192'>
+      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
+      NkOtoeSsr2UAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='GPU Observation' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Main Memory' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
